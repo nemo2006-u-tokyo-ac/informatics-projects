@@ -1,0 +1,219 @@
+/*基本的なスタイルを指定　main css*/
+body {
+  background-color: #e1e1e1;
+}
+
+section {
+  margin-left: 75px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 4px 2px 3px rgb(184, 183, 183);
+  text-align: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #CCC;
+  top: 0;
+
+  >h1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+#book {
+  display: flex;
+  float: left;
+  margin-left: 75px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Segoe UI;
+  color: #3a2f9e;
+  justify-content: left;
+  text-decoration: underline;
+
+  &:hover {
+    color: #0aafe6;
+  }
+}
+
+#information {
+  display: flex;
+  margin: 0px 0px 0px 75px;
+  font-weight: bold;
+  font-size: 1.5pc;
+  font-family: Segoe UI;
+  justify-content: right;
+}
+
+/* Google Fonts 読み込み */
+/* import the Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+/* 全体を囲うコンテナー */
+/* the container surround hole part */
+.container {
+  width: 350px;
+  height: 20vh;
+  margin-left: 100px;
+  margin-right: 75px;
+  background-color: #15151e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* 時計の共通スタイル */
+/* common style of clock */
+.clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: #daf6ff;
+  text-shadow: 0 0 20px #0aafe6;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* 日付のスタイル */
+/* style of date */
+.clock-date {
+  font-size: 20px;
+}
+
+/* 時間のスタイル */
+/* style of time */
+.clock-time {
+  font-size: 30px;
+}
+
+/* 文字サイズ調整 */
+/* adjusting the font-size */
+@media screen and (max-width: 500px) {
+  .clock-date {
+    font-size: 5vw;
+  }
+
+  .clock-time {
+    font-size: 20vw;
+  }
+}
+
+/*　学生情報のスタイル　*/
+.studentinfo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.studentinfo img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  /* トリミングしたい場合 */
+}
+
+.capture {
+  text-align: left;
+}
+
+.catalogue {
+  justify-content: center;
+  text-align: center;
+
+  >h2 {
+    font-size: 2em;
+  }
+
+  >p {
+    font-size: 1.5em;
+  }
+
+  >table {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+table img {
+  width: 550px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.index {
+  >p {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  >ul {
+    font-size: 1em;
+  }
+}
+
+a[target="_blank"] {
+  display: inline-block;
+  position: relative;
+}
+
+a[target="_blank"]::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -1em;
+  width: 1em;
+  height: 1em;
+  background-image: url("https://cdn.icon-icons.com/icons2/602/PNG/512/External_Link_icon-icons.com_55915.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.animation {
+  display: flex;
+  margin: 50px 50px 50px 50px;
+  transform: scale(0.75);
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  background-color: #CCC;
+  text-align: center;
+  bottom: 0;
+
+  >h3 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
