@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>「情報」実習課題 - 世界の空港</title>
+    <meta>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="世界各国にある芸術的な空港トップ10を紹介！雨宮先生どうか単位くださいお願いします🙏" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4317/4317883.png" sizes="16x16" type="image/jpg" />
+    <link rel="apple-touch-icon-precomposed" href="https://cdn-icons-png.flaticon.com/512/4317/4317883.png"
+        sizes="150x150" />
+    <meta name="msapplication-TileImage" content="https://cdn-icons-png.flaticon.com/512/4317/4317883.png" />
+    <meta name="msapplication-TileColor" content="#f5ff66" />
+    <link rel="stylesheet" href="Architectures in World Airports.css" />
+    <link rel="stylesheet" href="Animation.css" />
+    <script src="Architectures in World Airports.js" async="async"></script>
+    <script type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=643d90297e455e00129f10ba&product=sticky-share-buttons&source=platform"
+        async="async"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            var offset = 100;
+            var duration = 500;
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery('.pagetop').fadeIn(duration);
+                } else {
+                    jQuery('.pagetop').fadeOut(duration);
+                }
+            });
+
+            jQuery('.pagetop').click(function (event) {
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+        });
+    </script>
+</head>
+
+<body style="font-family: 'Helvetica', 'Times New Roman', 'sans-serif';">
+    <header>
+        <img src="./Images/image.jpeg" id="toudai">
+        <h1 style="font-family: 'Calibri';">私のすきなもの：世界の空港建築</h1>
+        <img src="./Images/myicon.JPG" id="myicon">
+    </header>
+    <main>
+        <div class="studentinfo">
+            <div>
+                <a href="https://www.u-tokyo.ac.jp/ja/index.html"><img src="./Images/UTokyo-A.svg"></a>
+            </div>
+            <address class="infolist">
+                <ul>
+                    <li>所属　　　：
+                        <a href="https://www.c.u-tokyo.ac.jp/">教養学部前期課程・文科一類</a>
+                    </li>
+                    <li>学生証番号： J1-250407
+                    </li>
+                    <li>氏名　　　：
+                        <a href="https://www.instagram.com/shisei_2006/">王思斉</a>
+                    </li>
+                </ul>
+            </address>
+            <div class="utmap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.504051748014!2d139.7601595759482!3d35.71382022818284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c2ffa206ea3%3A0x30e407498313ba95!2z5p2x5Lqs5aSn5a2m!5e0!3m2!1sja!2sjp!4v1747484933531!5m2!1sja!2sjp"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.676347328013!2d139.6828579759462!3d35.66034493112076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f3510abfcf29%3A0x447d943f8a75b1f8!2z5p2x5Lqs5aSn5a2mIOmnkuWgtOOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1747744281167!5m2!1sja!2sjp"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="clock">
+                <div class="clock">
+                    <p class="clock-date"></p>
+                    <p class="clock-time"></p>
+                </div>
+            </div>
+        </div>
+        <div class="booking-site">
+            <a href="https://www.google.com/travel/flights" target="_blank">
+                <p id="book">さあ今すぐフライトを予約しよう!</p>
+            </a>
+        </div>
+        <pre>
+
+        </pre>
+        <section class="catalogue">
+            <p class="caption">私たちが旅立つ時にお世話になる場所、空港。
+                そこでは、日々多数の搭乗客にサービスを提供するため、業務の効率化と高い機能性を実現しています。
+                特に、各国を代表する国際ハブ空港ともなれば、国の玄関口として建築のデザイン性にも優れた芸術品のようなものも数多くあります。
+                私は将来航空関係の仕事に携わりたい（できればパイロットを目指したい）と考えていて、芸術的な美しさを兼ね備えた空港建築に興味を持つようになりました。
+                次回旅にでるときはぜひ空港建築に目を向けてみてはいかがでしょうか。
+            </p>
+            <pre>
+
+            </pre>
+            <h2>建築デザイン</h2>
+            <th>画像をクリックして詳細を開くことができます</th>
+            <pre></pre>
+            <table>
+                <tr>
+                    <td><a href="./Pages/1. Beijing Daxing International Airport.html"><img
+                                src="https://freighter.flyteam.jp/newsphoto/35856/src.jpg"></a></td>
+                    <td><a href="./Pages/2. Singapore Changi Airport.html"><img
+                                src="https://media-assets.aumo.jp/uploads/photo/upload_photo/data/28587760/large_64e485db-a179-4543-a5e8-e4b88a5fc2f8.jpeg"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="./Pages/3. Denver International Airport.html"><img
+                                src="https://スピリチュアルライフ.com/wp-content/uploads/2019/02/e6446343b68190e3c5b6226c49b986b4.jpg"></a>
+                    </td>
+                    <td><a href="./Pages/4. Madrid-Barajas Airport Terminal 4.html"><img
+                                src="https://c1.staticflickr.com/5/4016/4684560779_eb0301bf39_b.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="./Pages/5. Chhatrapati Shivaji International Airport.html"><img
+                                src="https://www.som.com/wp-content/uploads/2021/08/507083_000_N97_large-scaled.jpg"></a>
+                    </td>
+                    <td><a href="./Pages/6. Hamad International Airport Passenger Terminal Complex.html"><img
+                                src="https://www.hok.com/wp-content/uploads/2019/04/Hamad-Interior-01-1900.jpg"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="./Pages/7. Mactan Cebu International Airport T2.html"><img
+                                src="https://d21hrr2lgpdozs.cloudfront.net/image/content/org/a8a713582dd6b432b852bde2066c18e8.jpg"></a>
+                    </td>
+                    <td><a href="./Pages/8. Kansai International Airport.html"><img
+                                src="https://dew8lut0z0dqr.cloudfront.net/image_resize?origin=https://dew8lut0z0dqr.cloudfront.net/images/guide/post/airport/br0098_0.jpg&quality=high&expire=604800"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="./Pages/9. Queen Alia International Airport.html"><img
+                                src="https://images.adsttc.com/media/images/5150/404f/b3fc/4b75/5a00/007d/large_jpg/1346_FP473745_indesign.jpg?1413933140"></a>
+                    </td>
+                    <td><a href="./Pages/10. Istanbul International Airport.html"><img
+                                src="https://www.aa.com.tr/uploads/userFiles/d3e453f6-588f-43e5-9099-582b22558014/04_2022_12042022_ist1_.jpeg"></a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <pre>
+
+        </pre>
+        <section class="index">
+            <h3>空港一覧</h3>
+            <ul>
+                <b>
+                    <li>1. 北京大興国際空港 – Zaha Hadid Architects <a href="https://daxing-pkx-airport.com/"
+                            target="_blank">公式ウェブサイト</a></li>
+                    <li>2. シンガポール・チャンギ国際空港 – Safdie Architects <a href="https://www.changiairport.com/"
+                            target="_blank">公式ウェブサイト</a></li>
+                    <li>3. デンバー国際空港 – Fentress Architects <a href="https://www.flydenver.com/"
+                            target="_blank">公式ウェブサイト</a>
+                    </li>
+                    <li>4. マドリード・バラハス空港第4ターミナル – Estudio Lamela & Rogers Stirk Harbour + Partners <a
+                            href="https://www.aena.es/en/adolfo-suarez-madrid-barajas.html" target="_blank">公式ウェブサイト</a>
+                    </li>
+                    <li>5. チャトラパティ・シヴァージー国際空港 – 第2ターミナル – SOM <a href="https://csmia.adaniairports.com/"
+                            target="_blank">公式ウェブサイト</a></li>
+                    <li>6. ハマド国際空港旅客ターミナル – HOK <a href="https://dohahamadairport.com/" target="_blank">公式ウェブサイト</a>
+                    </li>
+                    <li>7. マクタン・セブ国際空港第2ターミナル – Integrated Design Associates <a
+                            href="https://www.mactancebuairport.com/" target="_blank">公式ウェブサイト</a></li>
+                    <li>8. 関西国際空港 – Renzo Piano <a href="https://www.kansai-airport.or.jp/" target="_blank">公式ウェブサイト</a>
+                    </li>
+                    <li>9. クイーンアリア国際空港 – Foster + Partners <a href="https://qaiairport.com/"
+                            target="_blank">公式ウェブサイト</a>
+                    </li>
+                    <li>10. イスタンブール空港 – Grimshaw, Haptic & Nordic Team of Architects <a
+                            href="https://www.istairport.com/en/?locale=en&gclid=EAIaIQobChMIpNLtj6TO_wIVnRetBh0V-wH8EAAYASAAEgJ5lfD_BwE"
+                            target="_blank">公式ウェブサイト</a></li>
+                </b>
+            </ul>
+        </section>
+        <article id="shareSocialmedia">
+            <div class="sharethis-sticky-share-buttons"></div>
+        </article>
+        <section class="animation">
+            <div class="airplaneAnimation">
+                <div class="plane">
+                    <div class="main"></div>
+                    <div class="wingOne"></div>
+                    <div class="wingTwo"></div>
+                    <div class="pollution"></div>
+                </div>
+                <div class="clouds">
+                    <div class="cloudOne"></div>
+                    <div class="cloudTwo"></div>
+                    <div class="cloudThree"></div>
+                </div>
+        </section>
+        <section id="source">
+            <p><b>参考にしたサイト：</b><a
+                    href="https://www.re-thinkingthefuture.com/designing-for-typologies/a2692-10-inspirational-airport-designs-around-the-world/"
+                    target="_blank">10 Inspirational Airport designs around the world - RTF | Rethinking The
+                    Future</a>
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+        <small>©2025 Siqi Wang - Project for Informatics Course at UTokyo. All rights reserved.</small>
+    </footer>
+    <div class="pagetop">⬆️</div>
+</body>
+
+</html>
