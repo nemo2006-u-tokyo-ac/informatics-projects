@@ -1,0 +1,33 @@
+/*affects subclass pages*/
+.animation1 {
+    float: left;
+    display: flex;
+    transform: scale(0.75);
+    justify-content: left;
+}
+
+#information {
+    >a {
+        margin-right: 100px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+
+.sentences {
+    margin-top: 50px;
+    margin-right: 50px;
+
+    >p {
+        font-size: 1.25em;
+    }
+}
+
+.gallery {
+    margin-top: 50px;
+    background-color: #c9ffea;
+}
+
+.container {
+    float: right;
+}

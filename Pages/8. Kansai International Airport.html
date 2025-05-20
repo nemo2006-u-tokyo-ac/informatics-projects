@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>関西国際空港/Kansai International Airport (KIX)</title>
+    <meta>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description"
+        content="Are you interested in aviation? This page is perfect for you enjoying reading and share our knowledge!" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4317/4317883.png" sizes="16x16" type="image/jpg" />
+    <link rel="apple-touch-icon-precomposed" href="https://cdn-icons-png.flaticon.com/512/4317/4317883.png"
+        sizes="150x150" />
+    <meta name="msapplication-TileImage" content="https://cdn-icons-png.flaticon.com/512/4317/4317883.png" />
+    <meta name="msapplication-TileColor" content="#f5ff66" />
+    <link rel="stylesheet" href="../Architectures in World Airports.css" />
+    <link rel="stylesheet" href="../Animation.css" />
+    <link rel="stylesheet" href="Pages.css" />
+    <script src="../Architectures in World Airports.js" async="async"></script>
+    <script type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=643d90297e455e00129f10ba&product=sticky-share-buttons&source=platform"
+        async="async"></script>
+    <script>
+        jQuery(document).ready(function () {
+            var offset = 100;
+            var duration = 500;
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery('.pagetop').fadeIn(duration);
+                } else {
+                    jQuery('.pagetop').fadeOut(duration);
+                }
+            });
+
+            jQuery('.pagetop').click(function (event) {
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <h1>関西国際空港/Kansai International Airport (KIX)</h1>
+    <section class="animation1">
+        <div class="airplaneAnimation">
+            <div class="plane">
+                <div class="main"></div>
+                <div class="wingOne"></div>
+                <div class="wingTwo"></div>
+                <div class="pollution"></div>
+            </div>
+            <div class="clouds">
+                <div class="cloudOne"></div>
+                <div class="cloudTwo"></div>
+                <div class="cloudThree"></div>
+            </div>
+    </section>
+    <section id="information">
+        <a href="../index.html">ホームに戻る</a>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1920px-Flag_of_Japan.svg.png"
+            height="150vh">
+        <div class="container">
+            <div class="clock">
+                <p class="clock-date"></p>
+                <p class="clock-time"></p>
+            </div>
+        </div>
+    </section>
+    <article id="shareSocialmedia">
+        <div class="sharethis-sticky-share-buttons"></div>
+    </article>
+    <section class="sentences">
+        <p>
+            イタリア人建築家レンゾ・ピアノの設計により、大阪湾の人工島に建設されたこの空港は、世界初の海上空港とされています。全長1.7kmに及ぶ縦長の空港設計と、翼のような湾曲した屋根を持つ42の搭乗ゲートは、日本の頻発する地震に耐えられるように設計されています。開港からわずか4か月で、マグニチュード6.9の阪神淡路大震災にも最小限の被害で耐え抜きました。
+        </p>
+    </section>
+    <section class="gallery">
+        <table>
+            <tr>
+                <td><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13162.572291948487!2d135.22992951226712!3d34.43582036576295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000b91323cdfaf7%3A0xf171a79f8d908f88!2z6Zai6KW_5Zu96Zqb56m65riv!5e0!3m2!1sja!2sjp!4v1747750744094!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                <td><img src="https://www.yomiuri.co.jp/media/2022/08/20220803-OYO1I50008-1.jpg?type=large"></td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+</html>
